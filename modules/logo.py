@@ -19,7 +19,12 @@ class logo:
 ┃┃╱╰┫┃╱╱┃┃╱┃┣╮╰╯╭╯╱╰╮╭╯
 ┃┃╱╭┫┃╱╭┫╰━╯┃╰╮╭╋━━┳╯╰╮
 ┃╰━╯┃╰━╯┃╭━╮┃╱┃┃╰━┳╯╭╮╰╮
-╰━━━┻━━━┻╯╱╰╯╱╰╯╱╱╰━╯╰━╯ {purple}v2.1
+╰━━━┻━━━┻╯╱╰╯╱╰╯╱╱╰━╯╰━╯
+─────█─▄▀█──█▀▄─█───── 
+────▐▌──────────▐▌──── 
+────█▌▀▄──▄▄──▄▀▐█──── 
+───▐██──▀▀──▀▀──██▌─── 
+──▄████▄──▐▌──▄████▄──{purple}v2.1
 
 
 {cyan} =============================================
@@ -59,7 +64,7 @@ class logo:
   def ins_sc(self):
     self.tool_header()
     print (f'''
-{yellow}    [ + ] {green}Tool-X installed successfully.
+{yellow}    [ + ] {green}CLAY-X installed successfully.
 {yellow}    [ + ] {green}To run CLAY-X,
 {yellow}    [ + ] {green}Type Tool-X in your terminal.''')
     self.tool_footer()
