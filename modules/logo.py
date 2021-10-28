@@ -13,15 +13,17 @@ class logo:
     print(f'''\007
 
 {yellow}
-         _____           _    __  __
-        |_   _|__   ___ | |   \ \/ /
-          | |/ _ \ / _ \| |____\  /
-          | | (_) | (_) | |____/  \    
-          |_|\___/ \___/|_|   /_/\_\ {purple}v2.1
+         
+╭━━━┳╮╱╱╭━━━┳╮╱╱╭╮╭━╮╭━╮
+┃╭━╮┃┃╱╱┃╭━╮┃╰╮╭╯┃╰╮╰╯╭╯
+┃┃╱╰┫┃╱╱┃┃╱┃┣╮╰╯╭╯╱╰╮╭╯
+┃┃╱╭┫┃╱╭┫╰━╯┃╰╮╭╋━━┳╯╰╮
+┃╰━╯┃╰━╯┃╭━╮┃╱┃┃╰━┳╯╭╮╰╮
+╰━━━┻━━━┻╯╱╰╯╱╰╯╱╱╰━╯╰━╯ {purple}v2.1
 
 
 {cyan} =============================================
-{yellow}|          Install Best Hacking Tool          |
+{yellow}|          Create Tool By CLAY JUBA          |
 {cyan} ============================================={nc}''')
 
   @classmethod
@@ -34,7 +36,7 @@ class logo:
   def not_ins(self):
     self.tool_header()
     print (f'''
-{cyan}  [ + ]  {red}We can't install Tool-X.
+{cyan}  [ + ]  {red}We can't install CLAY-X.
 {cyan}  [ + ]  {red}There are some error.
 {cyan}  [ + ]  {red}Please try again after some time!''')
     self.tool_footer()
@@ -58,7 +60,7 @@ class logo:
     self.tool_header()
     print (f'''
 {yellow}    [ + ] {green}Tool-X installed successfully.
-{yellow}    [ + ] {green}To run Tool-X,
+{yellow}    [ + ] {green}To run CLAY-X,
 {yellow}    [ + ] {green}Type Tool-X in your terminal.''')
     self.tool_footer()
 
@@ -66,7 +68,7 @@ class logo:
   def update(self):
     self.tool_header()
     print (f'''
-{yellow}  [ 1 ] {green}Update your Tool-X.
+{yellow}  [ 1 ] {green}Update your CLAY-X.
 {yellow}  [ 0 ] {green}For Back.{nc}''')
     self.tool_footer()
 
@@ -74,7 +76,7 @@ class logo:
   def updated(self):
     self.tool_header()
     print (f'''
-{yellow}      [ + ] {green}Tool-X Updated Successfully.
+{yellow}      [ + ] {green}CLAY-X Updated Successfully.
 {yellow}      [ + ] {green}Press Enter to continue.{nc}''')
     self.tool_footer()
 
@@ -91,7 +93,7 @@ class logo:
   def update_error(self):
     self.tool_header()
     print (f'''
-{red}  [ + ]  {red}We can't Update Tool-X.\033[1;m
+{red}  [ + ]  {red}We can't Update CLAY-X.\033[1;m
 {red}  [ + ]  {red}Please try again after some time.{nc}''')
     self.tool_footer()
 
@@ -100,7 +102,7 @@ class logo:
   def about(self,total):
     self.tool_header()
     print (f'''
-{yellow}       [+] Tool Name :- {green}Tool-X
+{yellow}       [+] Tool Name :- {green}CLAY-X
 {yellow}       [+] Latest Update :- {green}23/3/2019.\033[1;m
 {yellow}       [+] Tools :- {green}total {total} tools.\033[1;m
 
@@ -152,7 +154,7 @@ class logo:
   @classmethod
   def updating(self):
     print (f"""{yellow} =============================================
-{green}|______________ Updating Tool-X ______________|
+{green}|______________ Updating CLAY-X ______________|
  {yellow}============================================={nc}""")
 
   @classmethod
@@ -167,7 +169,7 @@ class logo:
     print (f'''
 {yellow}  [ 1 ] {green}Show all tools.{yellow} [ {purple}{total} tools{yellow} ]
 {yellow}  [ 2 ] {green}Tools Category.
-{yellow}  [ 3 ] {green}Update Tool-X.
+{yellow}  [ 3 ] {green}Update CLAY-X.
 {yellow}  [ 4 ] {green}About Us.
 {yellow}  [ x ] {green}For Exit.''')
     self.tool_footer()
@@ -176,6 +178,6 @@ class logo:
   def exit(self):
     self.tool_header()
     print (f'''
-{yellow}         [ + ] {green}Thanks for using Tool-X
+{yellow}         [ + ] {green}Thanks for using CLAY-X
 {yellow}         [ + ] {green}Good Bye.....! ){nc}''')
     self.tool_footer()
