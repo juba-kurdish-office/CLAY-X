@@ -113,7 +113,7 @@ class main:
           os.system("clear")
           logo.updating()
           if system.sudo != None:
-            if os.path.exists(system.home+"/Tool-X"):
+            if os.path.exists(system.home+"/CLAY-X"):
               pass
             else:
               os.system(system.sudo+" git clone https://github.com/juba-kurdish-office/CLAY-X.git "+system.home+"/Tool-X")
@@ -122,17 +122,17 @@ class main:
               if os.path.exists(system.bin+"/Tool-X") and os.path.exists(system.conf_dir+"/Tool-X"):
                 os.system("clear")
                 logo.updated()
-                cmd=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+                cmd=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
               else:
                 os.system("clear")
                 logo.update_error()
-                cmd=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+                cmd=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
             else:
               os.system("clear")
               logo.update_error()
-              cmd=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+              cmd=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
           else:
-            if os.path.exists(system.home+"/Tool-X"):
+            if os.path.exists(system.home+"/CLAY-X"):
               pass
             else:
               os.system("git clone https://github.com/rajkumardusad/Tool-X.git "+system.home+"/Tool-X")
@@ -141,19 +141,19 @@ class main:
               if os.path.exists(system.bin+"/Tool-X") and os.path.exists(system.conf_dir+"/Tool-X"):
                 os.system("clear")
                 logo.updated()
-                cmd=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+                cmd=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
               else:
                 os.system("clear")
                 logo.update_error()
-                cmd=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+                cmd=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
             else:
               os.system("clear")
               logo.update_error()
-              cmd=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+              cmd=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
         else:
           os.system("clear")
           logo.nonet()
-          tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+          tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
       elif cmd=="0" or cmd=="back":
         self.menu()
         break
@@ -167,7 +167,7 @@ class main:
       total=len(tool.names)
       os.system("clear")
       logo.about(total)
-      cmd=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+      cmd=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
       self.menu()
       break
 
@@ -178,7 +178,7 @@ class main:
       total=len(tool.names)
       os.system("clear")
       logo.menu(total)
-      cmd=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+      cmd=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
       if cmd == "1":
         self.install_tools(self)
         break
@@ -278,17 +278,17 @@ class tools:
           if os.path.exists(system.home+"/"+package_name):
             os.system("clear")
             logo.installed(name)
-            tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+            tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
           else:
             os.system("clear")
             logo.not_installed(name)
-            tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+            tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
 
       elif package_manager=="wget":
         if os.path.exists(system.home+"/"+package_name):
           os.system("clear")
           logo.already_installed(name)
-          tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+          tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
         else:
           if system.sudo != None:
             os.system(system.sudo+" wget "+url+" -o "+system.home+"/"+package_name)
@@ -298,17 +298,17 @@ class tools:
           if os.path.exists(system.home+"/"+package_name):
             os.system("clear")
             logo.installed(name)
-            tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+            tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
           else:
             os.system("clear")
             logo.not_installed(name)
-            tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+            tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
 
       elif package_manager=="curl":
         if os.path.exists(system.home+"/"+package_name):
           os.system("clear")
           logo.already_installed(name)
-          tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+          tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
         else:
           if system.sudo != None:
             os.system(system.sudo+" curl "+url+" -o "+system.home+"/"+package_name)
@@ -318,12 +318,12 @@ class tools:
           if os.path.exists(system.home+"/"+package_name):
             os.system("clear")
             logo.installed(name)
-            tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+            tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
           else:
             os.system("clear")
             logo.not_installed(name)
-            tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+            tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
     else:
       os.system("clear")
       logo.nonet()
-      tmp=input(f"{blue}Tool-X{nc}@{blue}space {yellow}$ {nc}")
+      tmp=input(f"{blue}CLAY-X{nc}@{blue}space {yellow}$ {nc}")
