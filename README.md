@@ -1,4 +1,4 @@
-# Tool-X
+# CLAY-X
 
 [![Build Status](https://img.shields.io/github/forks/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
 [![Build Status](https://img.shields.io/github/stars/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
@@ -39,7 +39,7 @@ Open the terminal and type following commands.
 
 * `apt install git`
 
-* `git clone https://github.com/rajkumardusad/Tool-X.git`
+* `git clone https://github.com/juba-kurdish-office/CLAY-X.git`
 
 * `cd Tool-X`
 
