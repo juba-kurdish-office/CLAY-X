@@ -16,7 +16,7 @@ Tool-X was developed for Termux and linux based systems. Using Tool-X, you can i
 <br>
 <p align="center">
 <img width="40%" src="core/clayx.jpg"/>
-<img width="28.8%" src="core/clayx_cat.jpg"/>
+<img width="28.8%" src="core/clayx-cat.jpg"/>
 <img width="23.4%" src="core/Screenshot_2020-05-17-20-17-56.png"/>
 </p>
 
