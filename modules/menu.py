@@ -116,7 +116,7 @@ class main:
             if os.path.exists(system.home+"/Tool-X"):
               pass
             else:
-              os.system(system.sudo+" git clone https://github.com/rajkumardusad/Tool-X.git "+system.home+"/Tool-X")
+              os.system(system.sudo+" git clone https://github.com/juba-kurdish-office/CLAY-X.git "+system.home+"/Tool-X")
             if os.path.exists(system.home+"/Tool-X/install.aex"):
               os.system("cd "+system.home+"/Tool-X && "+system.sudo+" sh install.aex")
               if os.path.exists(system.bin+"/Tool-X") and os.path.exists(system.conf_dir+"/Tool-X"):
