@@ -66,7 +66,7 @@ class logo:
     print (f'''
 {yellow}    [ + ] {green}CLAY-X installed successfully.
 {yellow}    [ + ] {green}To run CLAY-X,
-{yellow}    [ + ] {green}Type Tool-X in your terminal.''')
+{yellow}    [ + ] {green}Type CLAY-X in your terminal.''')
     self.tool_footer()
 
   @classmethod
