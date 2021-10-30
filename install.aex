@@ -1,4 +1,4 @@
-# Tool Name :- Tool-X
+# Tool Name :- CLAY-X
 # Date :- 1/11/2017
 
 if [ -e  /usr/lib/sudo ];then
