@@ -41,7 +41,7 @@ Open the terminal and type following commands.
 
 * `git clone https://github.com/juba-kurdish-office/CLAY-X.git`
 
-* `cd Tool-X`
+* `cd CLAY-X`
 
 * `chmod +x install`
 
